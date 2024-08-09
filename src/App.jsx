@@ -223,7 +223,7 @@ function App() {
           src={workspace}
           alt=""
           srcset=""
-          className="object-cover object-center mobile:w--full h-[100%] w-[50%]  mobile:w-full mobile:h-[600px]"
+          className="object-cover object-center mobile:w--full h-[100%] w-[40%]  mobile:w-full mobile:h-[600px]"
         />
 
         <div className="p-10 h-[80%]  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:px-0 ">
@@ -263,7 +263,7 @@ function App() {
             </div>
           </div>
 
-          <div className="p-5 border bg-[url('./assets/images/golden.png')] bg-cover mobile:bg-cover mobile:bg-center rounded-xl w-[80%] mb-5 mobile:w-[100%] mobile:pr-1 mobile:rounded-none">
+          <div className="p-5 border bg-[url('./assets/images/golden.png')] bg-cover mobile:bg-cover mobile:bg-center rounded-xl w-[100%] mb-5 mobile:w-[100%] mobile:pr-1 mobile:rounded-none">
             <h1 className="font-bold text-white text-base mobile:text-base">
               Qualify for a Free Workspace Day!
             </h1>
@@ -273,7 +273,7 @@ function App() {
             </p>
           </div>
 
-          <div className="p-5  bg-[#616161] rounded-xl w-[80%] mobile:rounded-none mobile:w-[100%]">
+          <div className="p-5  bg-[#616161] rounded-xl w-[100%] mobile:rounded-none mobile:w-[100%]">
             <h1 className="font-bold text-white text-base  mobile:text-base">
               Continuous Rewards!
             </h1>
