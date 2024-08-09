@@ -43,10 +43,10 @@ function App() {
             redeemed for exciting rewards
           </p>
 
-          <div className="p-10 relative w-[15%] mobile:p-0 mobile:w-[40%]">
+          <div className="p-10 relative  mobile:p-0 mobile:w-[40%]">
             <button
               type="submit"
-              className="bg-blue-400 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10  mobile:text-base mobile:px-5 mobile:py-3 mobile:rounded-xl"
+              className="bg-blue-400 px-10 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10  mobile:text-base mobile:px-5 mobile:py-3 mobile:rounded-xl"
             >
               {" "}
               Join Now{" "}
@@ -240,7 +240,7 @@ function App() {
                 src={single}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-fit mobile:h-[120px] mobile:w-[100%]"
+                className="object-contain object-center mobile:w--full w-[90%] h-[150px] mobile:h-[120px] mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 20 points
@@ -255,7 +255,7 @@ function App() {
                 src={double}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[200px] mobile:h-[120px] mobile:w-[100%]"
+                className="object-contain object-center mobile:w--full w-[90%] h-[150px] mobile:h-[120px] mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 40 points
