@@ -30,15 +30,15 @@ function App() {
     <>
       {/* First Section */}
       <div className="border-b border-[#FFFFFF2E] ">
-        <div className="w-full h-[700px] mb-5 flex flex-col justify-center items-center bg-[url('./assets/images/background.png')]  mobile:px-2 mobile:w-[100%] mobile:mx-auto  mobile:h-[500px]">
+        <div className="w-full h-[700px] mb-5 flex flex-col justify-center items-center bg-[url('./assets/images/background.png')] mobile:bg-cover  mobile:px-2 mobile:w-[100%] mobile:mx-auto  mobile:h-[500px]">
           <img
             src={earn}
             alt=""
             srcset=""
-            className="object-contain object-center  w-[40%] mobile:object-cover mobile:w-[80%]"
+            className="object-contain object-center  w-[40%] mobile:object-cover mobile:w-[80%] mobile:mb-9"
           />
 
-          <p className="text-black mb-20 text-xl w-2/5 text-center poppins-light mobile:w-[100%] mobile:text-sm">
+          <p className="text-black mb-20 text-xl w-2/5 text-center poppins-light mobile:w-[100%] mobile:text-sm mobile:mb-10">
             Introduce others to our workspace and earn points that can be
             redeemed for exciting rewards
           </p>
@@ -75,7 +75,7 @@ function App() {
 
         <div className="flex items-center justify-around w-full mt-20 mobile:flex-col">
           <div className="w-1/4 text-center  mobile:w-full mobile:mb-10">
-            <FontAwesomeIcon icon={faWifi} size="5x" color="white"/>
+            <FontAwesomeIcon icon={faWifi} size="5x" color="white" />
 
             <h1 className="text-white text-2xl font-bold mb-2 mt-10">
               High-Speed Internet
@@ -145,7 +145,7 @@ function App() {
                 className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%]">
+              <div className="pl-10 w-[70%] mobile:w-[90%]">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Sign Up
                 </h1>
@@ -161,10 +161,10 @@ function App() {
                 src={two}
                 alt=""
                 srcset=""
-                className="object-contain object-center  w-[6%]"
+                className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%]">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Share Your Referral Link
                 </h1>
@@ -180,10 +180,10 @@ function App() {
                 src={three}
                 alt=""
                 srcset=""
-                className="object-contain object-center  w-[6%]"
+                className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%]">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Earn Points
                 </h1>
@@ -199,10 +199,10 @@ function App() {
                 src={four}
                 alt=""
                 srcset=""
-                className="object-contain object-center  w-[6%]"
+                className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%]">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Redeem Rewards
                 </h1>
@@ -218,21 +218,21 @@ function App() {
       </div>
 
       {/* Fourth Section */}
-      <div className="w-full  h-[850px] justify-around flex flex-row items-center  bg-[#1C1B1F] mb-20 ">
+      <div className="w-full  h-[850px] justify-around flex flex-row items-center  bg-[#1C1B1F]  mobile:flex-col mobile:h-fit">
         <img
           src={workspace}
           alt=""
           srcset=""
-          className="object-cover object-center mobile:w--full w-[30%] h-[850px] "
+          className="object-cover object-center mobile:w--full w-[30%] h-[850px] mobile:w-full mobile:h-[600px]"
         />
 
-        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center">
+        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:px-0 ">
           <h1 className="text-center font-bold text-white text-2xl">
             Workspace Referral Rewards
           </h1>
 
-          <div className=" w-[80%] flex flex-row p-10  justify-between">
-            <div className=" w-[50%] h-[100%] ">
+          <div className=" w-[80%] flex flex-row p-10  justify-between mobile:flex-col mobile:justify-normal">
+            <div className=" w-[50%] h-[100%] mobile:w-[100%] mobile:mb-10">
               <h1 className="text-center font-bold text-white">
                 1 Person Referred
               </h1>
@@ -240,14 +240,14 @@ function App() {
                 src={single}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[300px] "
+                className="object-contain object-center mobile:w--full w-[90%] h-fit mobile:h-fit mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 20 points
               </p>
             </div>
 
-            <div className=" w-[50%] h-[100%] ">
+            <div className=" w-[50%] h-[100%] mobile:w-[100%]">
               <h1 className="text-center font-bold text-white">
                 1 Person Referred
               </h1>
@@ -255,7 +255,7 @@ function App() {
                 src={double}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[300px] "
+                className="object-contain object-center mobile:w--full w-[90%] h-[200px] mobile:h-fit mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 20 points
@@ -263,22 +263,22 @@ function App() {
             </div>
           </div>
 
-          <div className="p-5 border bg-[#AD7A22] rounded-xl w-[80%] mb-5">
-            <h1 className="font-bold text-white text-lg">
+          <div className="p-5 border bg-[url('./assets/images/golden.png')] bg-cover mobile:bg-cover mobile:bg-center rounded-xl w-[80%] mb-5 mobile:w-[100%] mobile:pr-1 mobile:rounded-none">
+            <h1 className="font-bold text-white text-lg mobile:text-base">
               Qualify for a Free Workspace Day!
             </h1>
 
-            <p className="text-white text-base font-normal">
+            <p className="text-white text-base font-normal mobile:text-sm">
               Earn 100 points to enjoy a free day in our workspace
             </p>
           </div>
 
-          <div className="p-5 border bg-[#616161] rounded-xl w-[80%]">
-            <h1 className="font-bold text-white text-lg">
+          <div className="p-5  bg-[#616161] rounded-xl w-[80%] mobile:rounded-none mobile:w-[100%]">
+            <h1 className="font-bold text-white text-lg mobile:text-base">
               Qualify for a Free Workspace Day!
             </h1>
 
-            <p className="text-white text-base font-normal">
+            <p className="text-white text-base font-normal mobile:text-sm">
               Earn 100 points to enjoy a free day in our workspace
             </p>
           </div>
@@ -287,22 +287,22 @@ function App() {
 
       {/* Fifth Section */}
 
-      <div className="flex flex-row items-center justify-evenly bg-white w-full h-[800px]">
-        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center">
-          <h1 className="text-center font-bold text-black text-2xl">
+      <div className="flex flex-row items-center justify-evenly  w-full h-[800px] mobile:h-fit mobile:flex-col-reverse">
+        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:h-fit mobile:px-0 ">
+          <h1 className="text-center font-bold text-black text-2xl mobile:w-[100%] mobile:text-xl">
             Data Service Referral Rewards
           </h1>
 
-          <div className=" w-[80%] flex flex-row p-10  justify-between">
-            <div className=" w-[50%] h-[100%] ">
-              <h1 className="text-center font-bold text-black">
+          <div className=" w-[80%] flex flex-row p-10  justify-between mobile:flex-col mobile:w-[100%] mobile:items-center">
+            <div className=" w-[50%] h-[100%] mobile:w-[100%] mobile:mb-10">
+              <h1 className="text-center font-bold text-black ">
                 1 Person Referred
               </h1>
               <img
                 src={single}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[300px] "
+                className="object-contain object-center mobile:w-[60%] w-[90%] h-[300px]  mobile:h-fit mobile:mx-auto"
               />
               <p className="text-center text-black font-normal text-base">
                 20 points
@@ -310,31 +310,31 @@ function App() {
             </div>
 
             <div className=" w-[50%] h-[100%] ">
-              <h1 className="text-center font-bold text-black">
-                1 Person Referred
+              <h1 className="text-center font-bold text-black mobile:text-sm">
+                2 Persons Referred
               </h1>
               <img
                 src={double}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[300px] "
+                className="object-contain object-center w-[90%] h-[300px] mobile:w-[100%] mobile:h-fit"
               />
               <p className="text-center text-black font-normal text-base">
-                20 points
+                40 points
               </p>
             </div>
           </div>
 
-          <div className="px-5 py-2 border-2 border-black border-dashed rounded-xl w-[80%] mb-5">
-            <h1 className="font-bold text-black text-lg mb-1">
+          <div className="px-5 py-2 border-2 border-black border-dashed rounded-xl w-[80%] mb-5 mobile:w-[95%] mobile:px-2">
+            <h1 className="font-bold text-black text-lg mb-1 mobile:text-sm">
               Redeem Your Points
             </h1>
 
-            <p className="text-black text-base font-normal leading-normal">
+            <p className="text-black text-base font-normal leading-normal mobile:text-sm">
               100 Points: Redeem for a free day of workspace use!
             </p>
 
-            <p className="text-black text-base font-normal leading-normal">
+            <p className="text-black text-base font-normal leading-normal mobile:text-sm">
               100 Points: Redeem for a free Wi-Fi data plan!
             </p>
           </div>
@@ -344,24 +344,26 @@ function App() {
           src={enjoy}
           alt=""
           srcset=""
-          className="object-contain object-center mobile:w--full w-[40%] h-[100%] "
+          className="object-contain object-center mobile:w--full w-[40%] h-[100%] mobile:w-[100%] mobile:object-cover ]"
         />
       </div>
 
-      <div className="flex flex-row items-center justify-center bg-[#1C1B1F] w-full h-[500px]">
+      {/* Sixth Section */}
+
+      <div className="flex flex-row items-center justify-center bg-[#1C1B1F] w-full h-[500px] mobile:h-fit">
         <img
           src={explain}
           alt=""
           srcset=""
-          className="object-contain object-center mobile:w--full w-[30%] h-[500px] "
+          className="object-contain object-center mobile:w--full w-[30%] h-[500px] mobile:h-fit "
         />
 
-        <div className="p-5 w-[50%]">
-          <h1 className="text-white font-bold text-2xl leading-relaxed mb-4">
+        <div className="p-5 w-[50%] mobile:w-[70%]">
+          <h1 className="text-white font-bold text-2xl leading-relaxed mb-4 mobile:text-sm">
             Why Join Techroom?
           </h1>
 
-          <p className="text-white font-normal text-lg leading-relaxed w-[75%]">
+          <p className="text-white font-normal text-lg leading-relaxed w-[75%] mobile:text-xs mobile:w-full">
             TechRoom offers a comfortable, productive environment with
             high-speed internet, great amenities, and a welcoming community.
             Plus, our data services are tailored to meet your needs.
