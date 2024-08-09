@@ -43,10 +43,10 @@ function App() {
             redeemed for exciting rewards
           </p>
 
-          <div className="p-10 relative w-[15%] mobile:p-0 mobile:w-[30%]">
+          <div className="p-10 relative w-[15%] mobile:p-0 mobile:w-[40%]">
             <button
               type="submit"
-              className="bg-blue-400 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10 mobile:w-auto mobile:text-base mobile:px-5 mobile:py-3 mobile:rounded-2xl"
+              className="bg-blue-400 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10  mobile:text-base mobile:px-5 mobile:py-3 mobile:rounded-xl"
             >
               {" "}
               Join Now{" "}
