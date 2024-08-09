@@ -223,17 +223,17 @@ function App() {
           src={workspace}
           alt=""
           srcset=""
-          className="object-cover object-center mobile:w--full w-[30%] h-[850px] mobile:w-full mobile:h-[600px]"
+          className="object-cover object-center mobile:w--full h-[100%] w-[50%]  mobile:w-full mobile:h-[600px]"
         />
 
-        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:px-0 ">
+        <div className="p-10 h-[80%]  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:px-0 ">
           <h1 className="text-center font-bold text-white text-2xl">
             Workspace Referral Rewards
           </h1>
 
           <div className=" w-[80%] flex flex-row p-10  justify-between mobile:flex-col mobile:justify-normal">
             <div className=" w-[50%] h-[100%] mobile:w-[100%] mobile:mb-10">
-              <h1 className="text-center font-bold text-white">
+              <h1 className="text-center font-bold text-white text-xs">
                 1 Person Referred
               </h1>
               <img
@@ -242,13 +242,13 @@ function App() {
                 srcset=""
                 className="object-contain object-center mobile:w--full w-[90%] h-[150px] mobile:h-[120px] mobile:w-[100%]"
               />
-              <p className="text-center text-white font-normal text-base">
+              <p className="text-center text-white font-normal text-sm">
                 20 points
               </p>
             </div>
 
             <div className=" w-[50%] h-[100%] mobile:w-[100%]">
-              <h1 className="text-center font-bold text-white">
+              <h1 className="text-center font-bold text-white text-xs">
                 2 Persons Referred
               </h1>
               <img
@@ -257,14 +257,14 @@ function App() {
                 srcset=""
                 className="object-contain object-center mobile:w--full w-[90%] h-[150px] mobile:h-[120px] mobile:w-[100%]"
               />
-              <p className="text-center text-white font-normal text-base">
+              <p className="text-center text-white font-normal text-sm">
                 40 points
               </p>
             </div>
           </div>
 
           <div className="p-5 border bg-[url('./assets/images/golden.png')] bg-cover mobile:bg-cover mobile:bg-center rounded-xl w-[80%] mb-5 mobile:w-[100%] mobile:pr-1 mobile:rounded-none">
-            <h1 className="font-bold text-white text-lg mobile:text-base">
+            <h1 className="font-bold text-white text-base mobile:text-base">
               Qualify for a Free Workspace Day!
             </h1>
 
@@ -274,11 +274,11 @@ function App() {
           </div>
 
           <div className="p-5  bg-[#616161] rounded-xl w-[80%] mobile:rounded-none mobile:w-[100%]">
-            <h1 className="font-bold text-white text-lg mobile:text-base">
+            <h1 className="font-bold text-white text-base  mobile:text-base">
               Continuous Rewards!
             </h1>
 
-            <p className="text-white text-base font-normal mobile:text-sm">
+            <p className="text-white text-sm font-normal mobile:text-sm">
               Keep earning 20 points for every continued use of our workspace by
               the people you refer.
             </p>
