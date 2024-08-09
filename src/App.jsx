@@ -30,7 +30,7 @@ function App() {
     <>
       {/* First Section */}
       <div className="border-b border-[#FFFFFF2E] ">
-        <div className="w-full h-[700px] mb-5 flex flex-col justify-center items-center bg-[url('./assets/images/background.png')] mobile:bg-cover  mobile:px-2 mobile:w-[100%] mobile:mx-auto  mobile:h-[500px]">
+        <div className="w-full h-[700px] mb-5 flex flex-col justify-center items-center bg-[url('./assets/images/background.png')] mobile:bg-[url('./assets/images/sbackground.png')] mobile:bg-cover  mobile:px-2 mobile:w-[100%] mobile:mx-auto  mobile:h-[500px]">
           <img
             src={earn}
             alt=""
