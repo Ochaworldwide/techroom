@@ -118,7 +118,7 @@ function App() {
       </div>
 
       {/* Third Section */}
-      <div className="w-full  border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block mobile:px-0">
+      <div className="w-full  border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block mobile:px-0 ">
         <div className="w-2/4  mobile:w-full">
           <img
             src={gosip}
@@ -129,15 +129,15 @@ function App() {
         </div>
 
         <div className="w-2/4  flex flex-col justify-center items-center  mobile:w-full ">
-          <div className="p-5 w-[70%] mobile:w-full">
+          <div className="p-5 w-[70%] mobile:w-full mobile:px-0">
             <h1 className="text-black leading-normal font-bold text-3xl mobile:mx-auto mobile:text-base mobile:text-center mobile:mb-5">
               How it works
             </h1>
-            <p className=" mb-10 text-base mobile:mx-auto mobile:text-center mobile:text-sm ">
+            <p className=" mb-10 text-base mobile:mx-auto mobile:text-center mobile:text-sm mobile:w-full ">
               Earn rewards effortlessly by sharing the TechRoom experience
             </p>
 
-            <div className=" flex flex-row mt-10 ">
+            <div className=" flex flex-row mt-10 mobile:pl-5 ">
               <img
                 src={one}
                 alt=""
@@ -145,7 +145,7 @@ function App() {
                 className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%] mobile:w-[90%]">
+              <div className="pl-10 w-[70%] mobile:w-[90%] mobile:pl-7">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Sign Up
                 </h1>
@@ -156,7 +156,7 @@ function App() {
               </div>
             </div>
 
-            <div className=" flex flex-row mt-10">
+            <div className=" flex flex-row mt-10 mobile:pl-5 ">
               <img
                 src={two}
                 alt=""
@@ -164,7 +164,7 @@ function App() {
                 className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%] mobile:w-[100%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%] mobile:pl-7">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Share Your Referral Link
                 </h1>
@@ -175,7 +175,7 @@ function App() {
               </div>
             </div>
 
-            <div className=" flex flex-row mt-10">
+            <div className=" flex flex-row mt-10 mobile:pl-5 ">
               <img
                 src={three}
                 alt=""
@@ -183,7 +183,7 @@ function App() {
                 className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%] mobile:w-[100%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%] mobile:pl-7">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Earn Points
                 </h1>
@@ -194,7 +194,7 @@ function App() {
               </div>
             </div>
 
-            <div className=" flex flex-row mt-10">
+            <div className=" flex flex-row mt-10 mobile:pl-5 ">
               <img
                 src={four}
                 alt=""
@@ -202,7 +202,7 @@ function App() {
                 className="object-contain object-center  w-[6%] mobile:w-[10%]"
               />
 
-              <div className="pl-10 w-[70%] mobile:w-[100%]">
+              <div className="pl-10 w-[70%] mobile:w-[100%] mobile:pl-7">
                 <h1 className="font-bold text-xl text-black leading-normal">
                   Redeem Rewards
                 </h1>
@@ -249,7 +249,7 @@ function App() {
 
             <div className=" w-[50%] h-[100%] mobile:w-[100%]">
               <h1 className="text-center font-bold text-white">
-                1 Person Referred
+                2 Persons Referred
               </h1>
               <img
                 src={double}
@@ -258,7 +258,7 @@ function App() {
                 className="object-contain object-center mobile:w--full w-[90%] h-[200px] mobile:h-[120px] mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
-                20 points
+                40 points
               </p>
             </div>
           </div>
@@ -275,11 +275,12 @@ function App() {
 
           <div className="p-5  bg-[#616161] rounded-xl w-[80%] mobile:rounded-none mobile:w-[100%]">
             <h1 className="font-bold text-white text-lg mobile:text-base">
-              Qualify for a Free Workspace Day!
+              Continuous Rewards!
             </h1>
 
             <p className="text-white text-base font-normal mobile:text-sm">
-              Earn 100 points to enjoy a free day in our workspace
+              Keep earning 20 points for every continued use of our workspace by
+              the people you refer.
             </p>
           </div>
         </div>
@@ -289,7 +290,6 @@ function App() {
 
       <div className="flex flex-row items-center justify-evenly  w-full h-[800px] mobile:h-fit mobile:flex-col-reverse">
         <div className="w-[50%] flex flex-col justify-center items-center mobile:w-[100%]  mobile:pt-7 mobile:px-0 mb-10">
-
           <h1 className="text-center font-bold text-black text-2xl mobile:w-[100%] mobile:text-xl">
             Data Service Referral Rewards
           </h1>
