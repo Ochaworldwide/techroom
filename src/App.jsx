@@ -46,7 +46,7 @@ function App() {
           <div className="p-10 relative w-[15%] mobile:p-0 mobile:w-[30%]">
             <button
               type="submit"
-              className="bg-blue-400 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10 mobile:w-[100%] mobile:text-base mobile:p-5 mobile:rounded-3xl"
+              className="bg-blue-400 rounded-2xl w-[100%] leading-loose font-bold text-2xl text-white mt-10 mobile:w-auto mobile:text-base mobile:px-5 mobile:py-3 mobile:rounded-2xl"
             >
               {" "}
               Join Now{" "}
@@ -133,7 +133,7 @@ function App() {
             <h1 className="text-black leading-normal font-bold text-3xl mobile:mx-auto mobile:text-base mobile:text-center mobile:mb-5">
               How it works
             </h1>
-            <p className="text-black mb-10 font-bold text-base mobile:mx-auto mobile:text-center mobile:text-sm">
+            <p className=" mb-10 text-base mobile:mx-auto mobile:text-center mobile:text-sm ">
               Earn rewards effortlessly by sharing the TechRoom experience
             </p>
 
@@ -240,7 +240,7 @@ function App() {
                 src={single}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-fit mobile:h-fit mobile:w-[100%]"
+                className="object-contain object-center mobile:w--full w-[90%] h-fit mobile:h-[120px] mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 20 points
@@ -255,7 +255,7 @@ function App() {
                 src={double}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w--full w-[90%] h-[200px] mobile:h-fit mobile:w-[100%]"
+                className="object-contain object-center mobile:w--full w-[90%] h-[200px] mobile:h-[120px] mobile:w-[100%]"
               />
               <p className="text-center text-white font-normal text-base">
                 20 points
@@ -288,13 +288,14 @@ function App() {
       {/* Fifth Section */}
 
       <div className="flex flex-row items-center justify-evenly  w-full h-[800px] mobile:h-fit mobile:flex-col-reverse">
-        <div className="p-10 h-80%  w-[40%] flex flex-col justify-center items-center mobile:w-[100%] mobile:h-fit mobile:px-0 ">
+        <div className="w-[50%] flex flex-col justify-center items-center mobile:w-[100%]  mobile:pt-7 mobile:px-0 mb-10">
+
           <h1 className="text-center font-bold text-black text-2xl mobile:w-[100%] mobile:text-xl">
             Data Service Referral Rewards
           </h1>
 
-          <div className=" w-[80%] flex flex-row p-10  justify-between mobile:flex-col mobile:w-[100%] mobile:items-center">
-            <div className=" w-[50%] h-[100%] mobile:w-[100%] mobile:mb-10">
+          <div className=" w-[80%] flex flex-row p-10  justify-between mobile:flex-col mobile:w-[100%] mobile:items-center ">
+            <div className=" w-[50%] flex flex-col justify-center content-center mobile:w-[100%] mobile:mb-10">
               <h1 className="text-center font-bold text-black ">
                 1 Person Referred
               </h1>
@@ -302,14 +303,14 @@ function App() {
                 src={single}
                 alt=""
                 srcset=""
-                className="object-contain object-center mobile:w-[60%] w-[90%] h-[300px]  mobile:h-fit mobile:mx-auto"
+                className="object-contain object-center mobile:w-[60%] w-[100%] h-[150px] mobile:h-[120px]  mobile:mx-auto"
               />
               <p className="text-center text-black font-normal text-base">
                 20 points
               </p>
             </div>
 
-            <div className=" w-[50%] h-[100%] ">
+            <div className=" w-[50%] flex flex-col justify-center content-center ">
               <h1 className="text-center font-bold text-black mobile:text-sm">
                 2 Persons Referred
               </h1>
@@ -317,7 +318,7 @@ function App() {
                 src={double}
                 alt=""
                 srcset=""
-                className="object-contain object-center w-[90%] h-[300px] mobile:w-[100%] mobile:h-fit"
+                className="object-contain object-center w-[100%] h-[150px] mobile:w-[100%] mobile:h-[120px]"
               />
               <p className="text-center text-black font-normal text-base">
                 40 points
@@ -344,7 +345,7 @@ function App() {
           src={enjoy}
           alt=""
           srcset=""
-          className="object-contain object-center mobile:w--full w-[40%] h-[100%] mobile:w-[100%] mobile:object-cover ]"
+          className="object-contain object-center mobile:w--full w-[40%] h-[90%] mobile:w-[100%] mobile:object-cover ]"
         />
       </div>
 
